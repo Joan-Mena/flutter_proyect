@@ -16,8 +16,8 @@ class BannerToExplore extends StatelessWidget {
       child: Stack(
         children: [
           Positioned(
-            top: 30,
-            left: 15,
+            top: 32,
+            left: 20,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -54,7 +54,9 @@ class BannerToExplore extends StatelessWidget {
             top: 0,
             bottom: 0,
             right: -20,
-            child: Image.network("https://pngimg.com/d/chef_PNG190.png"),
+            child: Image.asset(
+              "lib/asset/images/baner_chef.png",
+            ),
           ),
         ],
       ),
